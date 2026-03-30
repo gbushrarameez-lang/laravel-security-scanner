@@ -1,0 +1,17 @@
+{
+    "name": "bushra/security-scanner",
+    "description": "Laravel Security Scanner Package",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Bushra\\SecurityScanner\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bushra\\SecurityScanner\\SecurityScannerServiceProvider"
+            ]
+        }
+    }
+}
