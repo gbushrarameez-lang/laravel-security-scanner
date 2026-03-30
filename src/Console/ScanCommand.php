@@ -34,6 +34,6 @@ class ScanCommand extends Command
             }
         }
 
-        $this->info("Scan complete ✅ No SQL vulnerabilities found. ✅");
+        $this->info("Scan complete ✅");
     }
 }
